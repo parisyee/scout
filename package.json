@@ -3,7 +3,7 @@
   "productName": "scout",
   "version": "1.0.0",
   "description": "My Electron application description",
-  "main": "src/index.js",
+  "main": "src/main-process/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -51,6 +51,8 @@
     "electron-compile": "^6.4.2",
     "electron-devtools-installer": "^2.0.1",
     "electron-squirrel-startup": "^1.0.0",
+    "material-ui": "^1.0.0-beta.33",
+    "material-ui-icons": "^1.0.0-beta.17",
     "moment": "^2.20.1",
     "numeral": "^2.0.6",
     "react": "^15.4.1",
